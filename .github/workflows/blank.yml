@@ -32,7 +32,7 @@ jobs:
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp 3389"'
     - name: Connect Ke RDP Kamu CPU 2 Core - 7GB Ram - 255 SSD.
       run: cmd /c start.bat
-    - name: RDP Berhasil Dibuat! Anda Bisa Menutup Tab Sekarang. Jangan lupa subrek XP CHANNEL
+    - name: RDP Berhasil Dibuat!
       run: | 
         Invoke-WebRequest https://github.com/Ibord1967/freerdp6hours/raw/main/loop.ps1 -OutFile loop.ps1
         ./loop.ps1
